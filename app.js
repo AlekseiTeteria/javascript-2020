@@ -64,14 +64,23 @@
 //     heading2.style.color = 'yellow'
 //     heading2.style.backgroundColor = '#000'
 //   }
-// }/
-const message = "Nunc sed turpis a felis in nunc fringilla";
-function formatMessage(message, maxLength) {
-  const message = "Nunc sed turpis a felis in nunc fringilla";
-  let result;
-  // Change code below this line
+// <<<<<<< HEAD
+// // }/
+// const message = "Nunc sed turpis a felis in nunc fringilla";
+// function formatMessage(message, maxLength) {
+//   const message = "Nunc sed turpis a felis in nunc fringilla";
+//   let result;
+//   // Change code below this line
 
-  /// Change code above this line
-  return result;
-  console.log(`formatMessage`);
-}
+//   /// Change code above this line
+//   return result;
+//   console.log(`formatMessage`);
+// =======
+// // })
+// function makeMessage(name, price) {
+//   // Change code below this line
+//   const message = `You picked ${productName}, price per item is ${productPrice} credits`;
+//   // Change code above this line
+//   return message;
+// >>>>>>> 0432e3afb260442eac8f2f3ec1c292f541cafe93
+// }
