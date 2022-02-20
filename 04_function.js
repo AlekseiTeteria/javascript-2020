@@ -75,8 +75,25 @@
 // // Указывая в скобках индекс элемента мы получаем его значение
 // console.log(clients[0]); // Mango
 // console.log(clients[1]); // Poly
-// console.log(clients[2]); // Ajax
+// console.log(clients[2]); // Aja
 
-const str = `abcde`;
+// Test mentor 1
 
-console.log(str[0]);
+// const string = `abcde`;
+// const chars = [`a`, `b`, `e`];
+// const index = [];
+
+// for (let i = 0; i < string.length; i += 1) {
+//   if (chars.includes(string[i])) {
+//     index.push(i);
+//   }
+// }
+// console.log(index);
+
+// // Test mentor 2
+// let str = `Каждый охотник желает знать`;
+// function stringToaray(str) {
+//   return str.split(` `);
+// }
+// const arr = stringToaray(str);
+// console.log(arr);
