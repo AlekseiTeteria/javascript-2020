@@ -64,10 +64,14 @@
 //     heading2.style.color = 'yellow'
 //     heading2.style.backgroundColor = '#000'
 //   }
-// })
-function makeMessage(name, price) {
+// }/
+const message = "Nunc sed turpis a felis in nunc fringilla";
+function formatMessage(message, maxLength) {
+  const message = "Nunc sed turpis a felis in nunc fringilla";
+  let result;
   // Change code below this line
-  const message = `You picked ${productName}, price per item is ${productPrice} credits`;
-  // Change code above this line
-  return message;
+
+  /// Change code above this line
+  return result;
+  console.log(`formatMessage`);
 }
