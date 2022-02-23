@@ -90,10 +90,65 @@
 // }
 // console.log(index);
 
-// // Test mentor 2
+// Test mentor 2
 // let str = `Каждый охотник желает знать`;
 // function stringToaray(str) {
 //   return str.split(` `);
 // }
 // const arr = stringToaray(str);
 // console.log(arr);
+
+// const propName = "famelei";
+// const user = {
+//   age: 25,
+//   // Имя этого свойства будет взято из значения переменной propName
+//   [propName]: "Генри Сибола",
+// };
+
+// console.log(user.famelei); // 'Генри Сибола'
+// const bookShelf = {
+//   books: ["The Last Kingdom"],
+//   getBooks() {
+//     return this.books;
+//   },
+//   addBook(bookName) {
+//     this.books.push(bookName);
+//   },
+//   removeBook(bookName) {
+//     const bookIndex = this.books.indexOf(bookName);
+//     this.books.splice(bookIndex, 1);
+//   },
+// };
+
+// console.log(bookShelf.getBooks()); // ["The Last Kingdom"]
+// bookShelf.addBook("The Mist");
+// bookShelf.addBook("Dream Guardian");
+// console.log(bookShelf.getBooks()); // ['The Last Kingdom', 'The Mist', 'Dream Guardian']
+// bookShelf.removeBook("The Mist");
+// console.log(bookShelf.getBooks()); // ['The Last Kingdom', 'Dream Guardian']
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+// console.log(keys); // ['title', 'author', 'rating']
+
+// const values = Object.values(book);
+// console.log(values); // ['The Last Kingdom', 'Bernard Cornwell', 8.38]
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+// console.log(keys); // ['title', 'author', 'rating']
+
+// const values = Object.values(book);
+// console.log(values); // ['The Last Kingdom', 'Bernard Cornwell', 8.38]
+
+// const entries = Object.entries(book);
+// console.log(entries);
+// // [["title", "The Last Kingdom"], ["author", "Bernard Cornwell"], ["rating", 8.38]]
